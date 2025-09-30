@@ -22,8 +22,8 @@ The goal was to recreate a simple QR code card layout using semantic HTML and CS
 Screenshot to the final project can be found here. ![](./images/screenshot.png)
 
 ### Links
-- A link to the dev branch of the repo for this project on github can be found here: [\[Add solution URL here\](https://your-solution-url.com)](https://github.com/ellamkoch/fem-qr-code-component/tree/dev)
-- Live Site URL on git hub can be found here: [Add live site URL here](https://your-live-site-url.com)
+- A link to the dev branch of the repo for this project on github can be found here: (https://github.com/ellamkoch/fem-qr-code-component/tree/dev)
+- Live Site URL on git hub can be found here: (https://ellamkoch.github.io/fem-qr-code-component/)
 
 ## My process
 -I started by setting up the project, but on Day 1 I had issues pushing my files from my PC up to the GitHub repo. I needed some help from Ulises in the breakout rooms to get that fixed so I could move forward that night.
