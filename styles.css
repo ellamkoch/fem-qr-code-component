@@ -1,6 +1,6 @@
 *,
 *::before,
-*::after { /*resets styles to normal*/
+*::after { /*these resets styles to normal*/
     box-sizing: border-box;
     padding: 0;
     margin: 0;
@@ -9,7 +9,7 @@
 
 body {
     font-family: 'Outfit', sans-serif;
-    background-color: hsl(212, 45% 89%);
+    background-color: hsl(212, 45%, 89%);
 }
 
 .main {
@@ -26,12 +26,13 @@ body {
 /* Container */
 .container {
     width: 100%;
-    max-width: 375px;
-    padding: 16px 16px 40px;
+    max-width: 320px;
+    padding: 16px 16px 40px; /*top left right and bottom padding*/
     background-color: #fff;
     border-radius: 20px;
-    box-shadow: 0 25px, 25px, 0 rgba(0,0, 0, 0.04);
+    box-shadow: 0 25px 25px 0 rgba(0,0, 0, 0.04);
     text-align: center;    
+ 
 }
 
 .container__img {
@@ -40,18 +41,21 @@ body {
     margin-bottom: 24px;
 }
 
-.conatiner__title {
+.container__title {
     font-size: 22px;
     margin-bottom: 16px;
     color: hsl(218, 44%, 22%);
+    font-weight: 700; /*bold is 700*/
     width: 256px;
     margin: 0 auto 16px;
+
 }
 
 .container__text {
     font-size: 15px;
-    color: hsl(216, 15% 48%);
-    font-weight: 400;
+    color: hsl(216, 15%, 48%);
+    font-weight: 400; /*regular is 400*/
     width: 256px;
     margin: 0 auto;
 }
+

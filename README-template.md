@@ -1,6 +1,6 @@
 # Frontend Mentor - QR code component solution
+This is a solution to the Frontend Mentor [QR code component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/qr-code-component-iux_sIO_H). Frontend Mentor challenges help to improve your coding skills by building realistic projects. 
 
-This is a solution to the [QR code component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/qr-code-component-iux_sIO_H). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
 
 ## Table of contents
 
@@ -15,89 +15,71 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 - [Author](#author)
 - [Acknowledgments](#acknowledgments)
 
-**Note: Delete this note and update the table of contents based on what sections you keep.**
-
 ## Overview
+The goal was to recreate a simple QR code card layout using semantic HTML and CSS. This project helped me practice flexbox centering, styling with border-radius and box-shadow, and reminding me how to publish my html on GitHub Pages. 
 
 ### Screenshot
-
-![](./screenshot.jpg)
-
-Add a screenshot of your solution. The easiest way to do this is to use Firefox to view your project, right-click the page and select "Take a Screenshot". You can choose either a full-height screenshot or a cropped one based on how long the page is. If it's very long, it might be best to crop it.
-
-Alternatively, you can use a tool like [FireShot](https://getfireshot.com/) to take the screenshot. FireShot has a free option, so you don't need to purchase it. 
-
-Then crop/optimize/edit your image however you like, add it to your project, and update the file path in the image above.
-
-**Note: Delete this note and the paragraphs above when you add your screenshot. If you prefer not to add a screenshot, feel free to remove this entire section.**
+Screenshot to the final project can be found here. ![](./images/screenshot.png)
 
 ### Links
-
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- A link to the dev branch of the repo for this project on github can be found here: [\[Add solution URL here\](https://your-solution-url.com)](https://github.com/ellamkoch/fem-qr-code-component/tree/dev)
+- Live Site URL on git hub can be found here: [Add live site URL here](https://your-live-site-url.com)
 
 ## My process
+-I started by setting up the project, but on Day 1 I had issues pushing my files from my PC up to the GitHub repo. I needed some help from Ulises in the breakout rooms to get that fixed so I could move forward that night.
+-After that, I mostly followed along with the class recordings to build out the project.
+-On Day 2, I was able to follow more in real time during class, which made it easier to catch mistakes and keep up with Ulises and update the CSS.
+-Over the weekend, I went back and rewatched the first day and I built the HTML structure that had happened in day 1 (container, image, heading, paragraph), then styled it with CSS. 
+-Then I rewatched Day 2, to ensure I had captured everything and that it was working correctly. 
+-The main challenges were centering the card on the page and making the box shadow and border radius look right. I ended up using Flexbox to get the card centered vertically and horizontally. I had some of the class names wrong between the JS and the html, so this is why the image wasn't centering and going into its container like it should have, as well as a few spelling mistakes in the css. 
+-I tested the site on Live Server as I was working on it. Thanks to the Live Server preview, I caught a couple of case sensitivity and pathing issues, and fixed those so the image would load correctly.
 
 ### Built with
-
 - Semantic HTML5 markup
 - CSS custom properties
 - Flexbox
-- CSS Grid
-- Mobile-first workflow
-- [React](https://reactjs.org/) - JS library
-- [Next.js](https://nextjs.org/) - React framework
-- [Styled Components](https://styled-components.com/) - For styles
-
-**Note: These are just examples. Delete this note and replace the list above with your own choices**
+- Desktop first workflow
+- GitHub for version control and GitHub pages for deployment
+- VS Code for editing
 
 ### What I learned
+-How to troubleshoot GitHub repo setup and pushing files — I struggled on Day 1 but got help in breakout rooms, which gave me a better understanding of version control.
+-That following along live with class helps me catch mistakes faster, but rewatching recordings is just as valuable for reinforcing details I missed (like building the HTML structure from Day 1 while I had the repo issues).
+-A reminder of how Flexbox works for centering.
+-I was reminded of the value of using a CSS reset to keep layouts consistent across browsers:
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
+`*,`
+`*::before,`
+`*::after { /* these reset styles to normal */`
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+`}`
 
-To see how you can add code snippets, see below:
-
-```html
-<h1>Some HTML code I'm proud of</h1>
-```
-```css
-.proud-of-this-css {
-  color: papayawhip;
-}
-```
-```js
-const proudOfThisFunc = () => {
-  console.log('🎉')
-}
-```
-
-If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
-
-**Note: Delete this note and the content within this section and replace with your own learnings.**
+-That typos and class mismatches between HTML and CSS silently break layouts — double-checking spelling is just as important as logic.
+-How Live Server previewing helps catch issues early. 
+-Small styling tweaks like box-shadow and border-radius really polish the look of the finished product.
 
 ### Continued development
-
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
-
-**Note: Delete this note and the content within this section and replace with your own plans for continued development.**
+-I want to get faster and more confident with GitHub workflows (pushing, pulling, and avoiding small setup mistakes).
+-I still need more practice with Flexbox layouts so centering and alignment feel automatic instead of trial and error.
+-Paying attention to class names and spelling is something I need to keep improving to avoid silent errors.
+-I plan to keep working in CSS resets and best practices for JS and CSS so they become second nature when completing a project.
+-As projects get more complex, I want to learn how to make my CSS and JS more organized and scalable (e.g., better naming conventions or using separate files for resets and main styles).
+-As we’ll be doing more Frontend Mentor projects in class, I want to use each one as a chance to practice building cleaner layouts and improving my debugging process.
 
 ### Useful resources
-
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
-
-**Note: Delete this note and replace the list above with resources that helped you during the challenge. These could come in handy for anyone viewing your solution or for yourself when you look back on this project in the future.**
+-MDN Web Docs (Mozilla Developer Network) – Clear explanations for CSS properties the universal CSS reset.
+-CSS Box-Shadow Generator (https://cssgenerator.org/box-shadow-css-generator.html ) – Super useful for experimenting with box-shadow values until I found the right look.
+-Frontend Mentor Challenge Directions – The starter brief gave me a clear target for structure and styling.
+-README Template from Frontend Mentor – Having a strong outline made it easier to write a polished README for my project.
+-Figma Design File – Helped me read exact values for spacing, font sizes, and other required properties.
 
 ## Author
-
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
-
-**Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
+- GitHub - [@ellamkoch](https://github.com/ellamkoch)
+- Frontend Mentor - [@ellamkoch](https://www.frontendmentor.io/profile/ellamkoch)
 
 ## Acknowledgments
+Huge thanks to Ulises to helping me unravel my repo issues at the beginning. Little did I realize when I first started doing GitHub repos that I made the whole directory into a main accidentally when starting to learn about GitHub and pushing files to it via bash. I don't remember all I did, but I know I don't want to relive it! LOL. 
 
-This is where you can give a hat tip to anyone who helped you out on this project. Perhaps you worked in a team or got some inspiration from someone else's solution. This is the perfect place to give them some credit.
 
-**Note: Delete this note and edit this section's content as necessary. If you completed this challenge by yourself, feel free to delete this section entirely.**
